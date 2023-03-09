@@ -14,5 +14,4 @@ menuGlobal.addEventListener("click", sidebar)
 
 function sidebar() {
     menuContent.classList.toggle('sidebarferme')
-
 }
