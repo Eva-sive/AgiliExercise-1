@@ -10,8 +10,9 @@ const menuContent = document.querySelector('.sidebar')
 
 // Rédige les conditions ou fonctions juste ici, n'oublie pas le résultat attendu dans le README.md
 
-menuContent.addEventListener("click", sidebar)
+menuGlobal.addEventListener("click", sidebar)
 
 function sidebar() {
-    sidebar.classList.toogle('active')
+    menuContent.classList.toggle('sidebarferme')
+
 }

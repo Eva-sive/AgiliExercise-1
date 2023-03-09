@@ -33,16 +33,19 @@ h1, h2, h3, h4, h5, h6 {
     position: fixed;
     right: 0;
     height: 100vh;
-    width: 300px;
+    overflow: hidden;
+    width: 0px;
     text-align: center;
     background-color: var(--sun);
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.35);
+    transition: width 300ms ease-in;
 }
 
 /* État fermé (Écris ton code ici ⬇) */
 
-.sidebar, b {
-    width: 0px;
+.sidebarferme {
+    overflow: visible;
+    width: 300px;
     transition: width 300ms ease-in;
 }
 
