@@ -10,3 +10,5 @@ const menuContent = document.querySelector('.sidebar')
 
 // Rédige les conditions ou fonctions juste ici, n'oublie pas le résultat attendu dans le README.md
 
+menuContent.addEventListener("click", sidebar)
+
