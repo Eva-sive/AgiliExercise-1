@@ -12,3 +12,6 @@ const menuContent = document.querySelector('.sidebar')
 
 menuContent.addEventListener("click", sidebar)
 
+function sidebar() {
+    sidebar.classList.toogle('active')
+}
